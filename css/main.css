@@ -1,0 +1,107 @@
+.bg-image-1 {
+    background-image: url("../img/banner-bg.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-image-intre0 {
+    background-image: url("../img/banner-01.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-image-between {
+    background-image: url("../img/video-bg.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-image-between2 {
+    background-image: url("../img/video-bg.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-shadow {
+    background-color: rgba(228, 222, 222, 0.274);
+}
+
+a.hover-1 {
+    position: relative;
+    color: white !important;
+}
+
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('./Raleway/static/Raleway-Regular.ttf') format('truetype');
+    font-weight: 400;
+
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('./Raleway/static/Raleway-Light.ttf') format('truetype');
+    font-weight: 300;
+
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('./Raleway/static/Raleway-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('./Raleway/static/Raleway-Medium.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.fw-medium {
+    font-weight: 600 !important;
+
+}
+
+a.hover-1:hover {
+    color: red !important;
+}
+
+.card {
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+}
+
+.card1 {
+    cursor: pointer;
+    transition: ease 0.7s;
+}
+
+.card1:hover {
+    transform: translateY(-10px);
+}
