@@ -5,20 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Softy Pinko</title>
+    <link rel="shortcut icon" href="img/logo2.png" type="image/x-icon">
     <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/fancybox.css" />
-    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/splide.min.css" />
     <link rel="stylesheet" href="css/icons/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
     <!-- 1 section  -->
     <div class="bg-image-1 pb-5">
         <!-- 1 section  -->
-        <nav class="navbar navbar-expand-lg py-3">
-            <div class="container-lg bg-white rounded-5 p-2 shadow-sm">
+        <nav data-aos="fade-up" data-aos-duration="2000" class="navbar navbar-expand-lg py-3 fixed-top">
+            <div class="container-lg bg-white shadow rounded-5 p-2 shadow-sm">
                 <a class="navbar-brand ps-3" href="#">
                     <img src="img/logo.png" alt="Logo" style="max-height: 40px;">
                 </a>
@@ -34,10 +35,10 @@
                         <li class="nav-item">
                             <a class="nav-link active" style="color: #FE599E;" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Work Process</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Pricing Tables</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#ab">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#wo">Work Process</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#tes">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#pri">Pricing Tables</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Blog Entries</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
                     </ul>
@@ -46,21 +47,21 @@
         </nav>
 
         <!-- 2 section  -->
-        <div class="container-lg py-lg-5">
+        <div class="container-lg py-lg-5" id="ab">
             <div class="text-center text-white ">
-                <h1 class="display-6 pt-5">
+                <h1 class="display-6 pt-5" data-aos="fade-down" data-aos-duration="2000">
                     We provide the best <span class="fw-medium">strategy</span>
                     <br class="d-none d-lg-inline">
                     to grow up your <span class="fw-medium">business</span>
                 </h1>
 
-                <div class="py-5 px-3">
+                <div class="py-5 px-3" data-aos="fade-right" data-aos-duration="1000">
                     Softy Pinko is a professional Bootstrap theme designed by Template Mo
                     <br class="d-none d-lg-inline">
                     for your company absolutely free of charge
                 </div>
 
-                <div class="pb-5">
+                <div class="pb-5" data-aos="fade-left" data-aos-duration="1000">
                     <button style="background-color: #FE599E;"
                         class="btn rounded-pill border-0 text-white px-4 py-2 mb-5">
                         DISCOVER MORE
@@ -68,15 +69,12 @@
                 </div>
             </div>
         </div>
-
-
-
     </div>
 
     <!-- 2 section  -->
     <div style="margin-top: -8rem;" class="container-lg py-5">
         <div class="row text-center g-4">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4" data-aos="fade-down-right" data-aos-duration="2000">
                 <div class="bg-white shadow p-4 rounded-4">
                     <div>
                         <img src="img/peoples_ikon.png" alt="">
@@ -89,7 +87,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4" data-aos="fade-down" data-aos-duration="2000">
                 <div class="bg-white shadow p-4 rounded-4">
                     <div>
                         <img src="img/peoples_ikon.png" alt="">
@@ -103,7 +101,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-4">
-                <div class="bg-white shadow p-4 rounded-4">
+                <div class="bg-white shadow p-4 rounded-4" data-aos="fade-down-left" data-aos-duration="2000">
                     <div>
                         <img src="img/peoples_ikon.png" alt="">
                     </div>
@@ -121,14 +119,17 @@
     <!-- 3 section  -->
     <div class="container-lg py-5">
         <div class="row align-items-center justify-content-center g-4">
-            <div class="col-10 col-sm-8 col-lg-4 ps-lg-5">
-                <img src="img/left-image.png" class="img-fluid mx-auto d-block" alt="Project discussion">
+            <div class="col-10 col-sm-8 col-lg-4 ps-lg-5" data-aos="slide-right" data-aos-duration="2000">
+                <a href="img/left-image.png" class="text-decoration-none img-fluid" data-fancybox="gallery"
+                    data-caption="Peoples">
+                    <img src="img/left-image.png" />
+                </a>
             </div>
             <div class="col-12 col-lg-7 px-4 px-lg-5 text-center text-lg-start">
-                <div class="h3 fw-medium ps-lg-5 py-3">
+                <div class="h3 fw-medium ps-lg-5 py-3" data-aos="fade-down" data-aos-duration="1000">
                     Let's discuss about you project
                 </div>
-                <div class="ps-lg-5 text-secondary">
+                <div class="ps-lg-5 text-secondary" data-aos="fade-up" data-aos-duration="2000">
                     Nullam sit ames libero. Etlam ullamcorper nist ut augue blandit, at finibus leo efficitur. Nam
                     gravida purus non sapien auctor, ut aliquam magna ullamcorper.
                 </div>
@@ -137,9 +138,9 @@
     </div>
 
     <!-- 4 section  -->
-    <div class="container-lg py-lg-5">
+    <div id="ab" class="container-lg py-lg-5">
         <div class="row align-items-center justify-content-center g-4">
-            <div class="col-12 col-lg-7 px-4 px-lg-5 text-center text-lg-start">
+            <div class="col-12 col-lg-7 px-4 px-lg-5 text-center text-lg-start" data-aos="fade-up-right" data-aos-duration="2000">
                 <div class="h3 fw-medium pe-lg-5 py-3">
                     We can help you to grow your
                 </div>
@@ -149,16 +150,19 @@
                     elit.
                 </div>
             </div>
-            <div class="col-10 col-sm-8 col-lg-4 ps-lg-5">
-                <img src="img/right-image.png" class="img-fluid mx-auto d-block" alt="Growth illustration">
+            <div class="col-10 col-sm-8 col-lg-4 ps-lg-5" data-aos="slide-left" data-aos-duration="2000">
+                <a href="img/right-image.png" class="text-decoration-none img-fluid" data-caption="Book"
+                    data-fancybox="gallery" data-caption="Peoples">
+                    <img src="img/right-image.png" />
+                </a>
             </div>
         </div>
     </div>
 
     <!-- 5 section  -->
-    <div class="bg-image-2 py-5 my-4">
+    <div id="wo" class="bg-image-2 py-5 my-4">
         <div class="container-lg py-lg-5">
-            <div class="text-center text-white">
+            <div class="text-center text-white" data-aos="fade-up" data-aos-duration="1000">
                 <div class="h2 fw-normal pb-4">
                     Work Process
                 </div>
@@ -167,96 +171,76 @@
                     Donec ante diam.
                 </div>
             </div>
-            <!-- Добавлен класс g-4 для отступов между карточками -->
-            <div class="row text-center pt-5 mt-3 g-4">
 
-                <!-- col-12 col-md-4 col-lg-2 делает сетку адаптивной -->
-                <div class="col-12 col-md-4 col-lg-2">
-                    <!-- Добавлен класс h-100 -->
-                    <div class="bg-white rounded-4 p-4 h-100">
-                        <div class="pb-3">
-                            <img src="img/work-process-item-01.png" class="img-fluid" alt="Rocket icon">
-                        </div>
-                        <div class="h5 fw-normal">
-                            Get Ideas
-                        </div>
-                        <div class="text-secondary">
-                            Godard pabst prism fam cliche.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-2">
-                    <div class="bg-white rounded-4 p-4 h-100">
-                        <div class="pb-3">
-                            <img src="img/work-process-item-01.png" class="img-fluid" alt="Rocket icon">
-                        </div>
-                        <div class="h5 fw-normal">
-                            Sketch Up
-                        </div>
-                        <div class="text-secondary">
-                            Godard pabst prism fam cliche.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-2">
-                    <div class="bg-white rounded-4 p-4 h-100">
-                        <div class="pb-3">
-                            <img src="img/work-process-item-01.png" class="img-fluid" alt="Rocket icon">
-                        </div>
-                        <div class="h5 fw-normal">
-                            Discuss
-                        </div>
-                        <div class="text-secondary">
-                            Godard pabst prism fam cliche.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-2">
-                    <div class="bg-white rounded-4 p-4 h-100">
-                        <div class="pb-3">
-                            <img src="img/work-process-item-01.png" class="img-fluid" alt="Rocket icon">
-                        </div>
-                        <div class="h5 fw-normal">
-                            Revise
-                        </div>
-                        <div class="text-secondary">
-                            Godard pabst prism fam cliche.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-2">
-                    <div class="bg-white rounded-4 p-4 h-100">
-                        <div class="pb-3">
-                            <img src="img/work-process-item-01.png" class="img-fluid" alt="Rocket icon">
-                        </div>
-                        <div class="h5 fw-normal">
-                            Approve
-                        </div>
-                        <div class="text-secondary">
-                            Godard pabst prism fam cliche.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-2">
-                    <div class="bg-white rounded-4 p-4 h-100">
-                        <div class="pb-3">
-                            <img src="img/work-process-item-01.png" class="img-fluid" alt="Rocket icon">
-                        </div>
-                        <div class="h5 fw-normal">
-                            Launch
-                        </div>
-                        <div class="text-secondary">
-                            Godard pabst prism fam cliche.
-                        </div>
-                    </div>
+            <div class="splide py-5" aria-label="Work Process" data-aos="flip-down" data-aos-duration="2000">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="bg-white rounded-4 p-4 h-100 shadow-sm text-center">
+                                <div class="pb-3">
+                                    <img src="img/work-process-item-01.png" class="img-fluid" alt="Icon">
+                                </div>
+                                <div class="h5 fw-normal">Get Ideas</div>
+                                <div class="text-secondary ">Godard pabst prism fam cliche.</div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="bg-white rounded-4 p-4 h-100 shadow-sm text-center">
+                                <div class="pb-3">
+                                    <img src="img/work-process-item-01.png" class="img-fluid" alt="Icon">
+                                </div>
+                                <div class="h5 fw-normal">Sketch Up</div>
+                                <div class="text-secondary">Godard pabst prism fam cliche.</div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="bg-white rounded-4 p-4 h-100 shadow-sm text-center">
+                                <div class="pb-3">
+                                    <img src="img/work-process-item-01.png" class="img-fluid" alt="Icon">
+                                </div>
+                                <div class="h5 fw-normal">Discuss</div>
+                                <div class="text-secondary">Godard pabst prism fam cliche.</div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="bg-white rounded-4 p-4 h-100 shadow-sm text-center">
+                                <div class="pb-3">
+                                    <img src="img/work-process-item-01.png" class="img-fluid" alt="Icon">
+                                </div>
+                                <div class="h5 fw-normal">Revise</div>
+                                <div class="text-secondary">Godard pabst prism fam cliche.</div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="bg-white rounded-4 p-4 h-100 shadow-sm text-center">
+                                <div class="pb-3">
+                                    <img src="img/work-process-item-01.png" class="img-fluid" alt="Icon">
+                                </div>
+                                <div class="h5 fw-normal">Approve</div>
+                                <div class="text-secondary">Godard pabst prism fam cliche.</div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="bg-white rounded-4 p-4 h-100 shadow-sm text-center">
+                                <div class="pb-3">
+                                    <img src="img/work-process-item-01.png" class="img-fluid" alt="Icon">
+                                </div>
+                                <div class="h5 fw-normal">Launch</div>
+                                <div class="text-secondary">Godard pabst prism fam cliche.</div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
+
+
+
         </div>
     </div>
 
     <!-- 6 section  -->
-    <div class="container-lg py-5">
-        <div class="text-center mb-5">
+    <div id="tes" class="container-lg py-5">
+        <div class="text-center mb-5" data-aos="fade-down-right" data-aos-duration="1000">
             <div class="h2 fw-medium pb-2 pb-md-4">
                 What do they say?
             </div>
@@ -268,7 +252,7 @@
         </div>
         <div class="row g-4 pb-4">
             <!-- Card 1 -->
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="2000">
                 <div class="bg-white p-4 shadow rounded-4 h-100">
                     <div class="col-8 text-end mb-3">
                         <img src="img/testimonial-icon.png" alt="quote">
@@ -291,7 +275,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4"  data-aos="zoom-out" data-aos-duration="2000">
                 <div class="bg-white p-4 shadow rounded-4 h-100">
                     <div class="col-8 text-end mb-3">
                         <img src="img/testimonial-icon.png" alt="quote">
@@ -314,7 +298,7 @@
             </div>
 
             <!-- Card 3 -->
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4"  data-aos="zoom-in" data-aos-duration="2000">
                 <div class="bg-white p-4 shadow rounded-4 h-100">
                     <div class=" col-8 text-end mb-3">
                         <img src="img/testimonial-icon.png" alt="quote">
@@ -339,19 +323,20 @@
     </div>
 
     <!-- 7 section  -->
-    <div style="background-color: #F3F1FE;" class="py-5">
+    <div id="pri" style="background-color: #F3F1FE;" class="py-5">
         <div class="container-lg py-5">
-            <div class="text-center mb-5">
+            <div class="text-center mb-5" data-aos="fade-up-right" data-aos-duration="1000">
                 <div class="h2 fw-medium pb-2 pb-md-4">
                     Pricing Plans
                 </div>
                 <div class="px-3 px-md-5">
-                    Donec vulpulate urna sed rutrum venenatis Cras consequat magna <br> quis arcu elementum quis congue risus
+                    Donec vulpulate urna sed rutrum venenatis Cras consequat magna <br> quis arcu elementum quis congue
+                    risus
                     volutpat
                 </div>
             </div>
             <div class="row g-4 py-3 justify-content-center">
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="flip-right" data-aos-duration="2000">
                     <div class="bg-white p-4 rounded-4 text-center shadow-sm h-100">
                         <div class="h5 fw-medium py-2">Starter</div>
                         <div style="background-color: #8162EE;" class="w-100 rounded-4 py-3 text-white">
@@ -374,7 +359,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="flip-right" data-aos-duration="2000">
                     <div class="bg-white p-4 rounded-4 text-center shadow-sm h-100">
                         <div class="h5 fw-medium py-2">Premium</div>
                         <div style="background-color: #FE599E;" class="w-100 rounded-4 py-3 text-white">
@@ -397,7 +382,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="flip-right" data-aos-duration="2000">
                     <div class="bg-white p-4 rounded-4 text-center shadow-sm h-100">
                         <div class="h5 fw-medium py-2">Advanced</div>
                         <div style="background-color: #8162EE;" class="w-100 rounded-4 py-3 text-white">
@@ -424,9 +409,48 @@
         </div>
     </div>
 
-
     <script src="js/aos.js"></script>
     <script src="js/bootstrap.bundle.min.js "></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script src="js/splide.min.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
+    <script>
+        Fancybox.bind("[data-fancybox]", {
+            'animated': true,
+        });
+    </script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('.splide', {
+                type: 'loop',
+                autoplay: true, 
+                interval: 2000, 
+                perPage: 6,     
+                perMove: 1,     
+                gap: '1.5rem',
+                pagination: false,
+                pauseOnHover: false,
+                breakpoints: {
+                    1200: {
+                        perPage: 4,
+                    },
+                    992: {
+                        perPage: 2,
+                    },
+                    767: {
+                        perPage: 1,
+                    },
+                },
+            });
+            splide.mount();
+        });
+
+    </script>
 </body>
 
 </html>
