@@ -16,24 +16,24 @@
 
 <body>
     <!-- 1 section  -->
-    <div class="bg-image-1 pb-5">
-        <!-- 1 section  -->
-        <nav data-aos="fade-up" data-aos-duration="2000" class="navbar navbar-expand-lg py-3 fixed-top">
-            <div class="container-lg bg-white shadow rounded-5 p-2 shadow-sm">
+    <header class="bg-image-1 pb-5">
+
+        <nav data-aos="fade-down" data-aos-duration="1000" class="navbar navbar-expand-lg py-3 fixed-top">
+            <div class="container-lg bg-white shadow-sm rounded-5 p-2">
                 <a class="navbar-brand ps-3" href="#">
-                    <img src="img/logo.png" alt="Logo" style="max-height: 40px;">
+                    <img src="img/logo.png" alt="Logo" class="navbar-logo">
                 </a>
 
                 <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false"
+                    data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarsExample05">
+                <div class="collapse navbar-collapse" id="mainNavbar">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" style="color: #FE599E;" aria-current="page" href="#">Home</a>
+                            <a class="nav-link nav-link-pink active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="#ab">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#wo">Work Process</a></li>
@@ -45,31 +45,28 @@
                 </div>
             </div>
         </nav>
-
-        <!-- 2 section  -->
-        <div class="container-lg py-lg-5" id="ab">
-            <div class="text-center text-white ">
+        <div class="container-lg py-lg-5" id="home">
+            <div class="text-center text-white pt-5">
                 <h1 class="display-6 pt-5" data-aos="fade-down" data-aos-duration="2000">
                     We provide the best <span class="fw-medium">strategy</span>
                     <br class="d-none d-lg-inline">
                     to grow up your <span class="fw-medium">business</span>
                 </h1>
 
-                <div class="py-5 px-3" data-aos="fade-right" data-aos-duration="1000">
+                <p class="py-4 px-3" data-aos="fade-right" data-aos-duration="1000">
                     Softy Pinko is a professional Bootstrap theme designed by Template Mo
                     <br class="d-none d-lg-inline">
                     for your company absolutely free of charge
-                </div>
+                </p>
 
                 <div class="pb-5" data-aos="fade-left" data-aos-duration="1000">
-                    <button style="background-color: #FE599E;"
-                        class="btn rounded-pill border-0 text-white px-4 py-2 mb-5">
+                    <a href="#ab" class="btn btn-pink rounded-pill text-white px-4 py-2 mb-5">
                         DISCOVER MORE
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 
     <!-- 2 section  -->
     <div style="margin-top: -8rem;" class="container-lg py-5">
@@ -79,7 +76,7 @@
                     <div>
                         <img src="img/peoples_ikon.png" alt="">
                     </div>
-                    <div class="h4 fw-normal pb-2 pt-4 fw-medium">
+                    <div class="h4 pb-2 pt-4 fw-medium">
                         Modern Strategy
                     </div>
                     <div class="text-secondary">
@@ -92,11 +89,11 @@
                     <div>
                         <img src="img/peoples_ikon.png" alt="">
                     </div>
-                    <div class="h4 fw-normal pb-2 pt-4 fw-medium">
+                    <div class="h4 pb-2 pt-4 fw-medium">
                         Best Relationship
                     </div>
                     <div class="text-secondary">
-                        Contact us immediately if you have a ouestion in mind
+                        Contact us immediately if you have a question in mind
                     </div>
                 </div>
             </div>
@@ -105,8 +102,8 @@
                     <div>
                         <img src="img/peoples_ikon.png" alt="">
                     </div>
-                    <div class="h4 fw-normal pb-2 pt-4 fw-medium">
-                        Ulimate Marketing
+                    <div class="h4 pb-2 pt-4 fw-medium">
+                        Ultimate Marketing
                     </div>
                     <div class="text-secondary">
                         You just need to tell your friends about our free templates
@@ -120,17 +117,17 @@
     <div class="container-lg py-5">
         <div class="row align-items-center justify-content-center g-4">
             <div class="col-10 col-sm-8 col-lg-4 ps-lg-5" data-aos="slide-right" data-aos-duration="2000">
-                <a href="img/left-image.png" class="text-decoration-none img-fluid" data-fancybox="gallery"
+                <a href="img/left-image.png" class="text-decoration-none" data-fancybox="gallery"
                     data-caption="Peoples">
-                    <img src="img/left-image.png" />
+                    <img src="img/left-image.png" class="img-fluid" />
                 </a>
             </div>
             <div class="col-12 col-lg-7 px-4 px-lg-5 text-center text-lg-start">
                 <div class="h3 fw-medium ps-lg-5 py-3" data-aos="fade-down" data-aos-duration="1000">
-                    Let's discuss about you project
+                    Let's discuss about your project
                 </div>
                 <div class="ps-lg-5 text-secondary" data-aos="fade-up" data-aos-duration="2000">
-                    Nullam sit ames libero. Etlam ullamcorper nist ut augue blandit, at finibus leo efficitur. Nam
+                    Nullam sit amet libero. Etiam ullamcorper nisl ut augue blandit, at finibus leo efficitur. Nam
                     gravida purus non sapien auctor, ut aliquam magna ullamcorper.
                 </div>
             </div>
@@ -140,20 +137,21 @@
     <!-- 4 section  -->
     <div id="ab" class="container-lg py-lg-5">
         <div class="row align-items-center justify-content-center g-4">
-            <div class="col-12 col-lg-7 px-4 px-lg-5 text-center text-lg-start" data-aos="fade-up-right" data-aos-duration="2000">
+            <div class="col-12 col-lg-7 px-4 px-lg-5 text-center text-lg-start" data-aos="fade-up-right"
+                data-aos-duration="2000">
                 <div class="h3 fw-medium pe-lg-5 py-3">
                     We can help you to grow your
                 </div>
                 <div class="pe-lg-5 text-secondary">
-                    Aenean pretium, ipsum et portitor auctor, metus ipsum lacutis nisi a bibendum lectus libero vitae
-                    urna. Sed id leo eu dotor luctus congue sed eget ipsum. Nunc nec luctus libero Etiam quis dotor
+                    Aenean pretium, ipsum et porttitor auctor, metus ipsum iaculis nisi a bibendum lectus libero vitae
+                    urna. Sed id leo eu dotor luctus congue sed eget ipsum. Nunc nec luctus libero Etiam quis dolor
                     elit.
                 </div>
             </div>
             <div class="col-10 col-sm-8 col-lg-4 ps-lg-5" data-aos="slide-left" data-aos-duration="2000">
-                <a href="img/right-image.png" class="text-decoration-none img-fluid" data-caption="Book"
-                    data-fancybox="gallery" data-caption="Peoples">
-                    <img src="img/right-image.png" />
+                <a href="img/right-image.png" class="text-decoration-none " data-caption="Book" data-fancybox="gallery"
+                    data-caption="Peoples">
+                    <img src="img/right-image.png" class="img-fluid" />
                 </a>
             </div>
         </div>
@@ -275,7 +273,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="col-12 col-md-6 col-lg-4"  data-aos="zoom-out" data-aos-duration="2000">
+            <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-out" data-aos-duration="2000">
                 <div class="bg-white p-4 shadow rounded-4 h-100">
                     <div class="col-8 text-end mb-3">
                         <img src="img/testimonial-icon.png" alt="quote">
@@ -298,7 +296,7 @@
             </div>
 
             <!-- Card 3 -->
-            <div class="col-12 col-md-6 col-lg-4"  data-aos="zoom-in" data-aos-duration="2000">
+            <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="2000">
                 <div class="bg-white p-4 shadow rounded-4 h-100">
                     <div class=" col-8 text-end mb-3">
                         <img src="img/testimonial-icon.png" alt="quote">
@@ -340,7 +338,7 @@
                     <div class="bg-white p-4 rounded-4 text-center shadow-sm h-100">
                         <div class="h5 fw-medium py-2">Starter</div>
                         <div style="background-color: #8162EE;" class="w-100 rounded-4 py-3 text-white">
-                            <div class="h3 fw-medium mb-0">$14.50</div>
+                            <div class="h3 fw-medium mb-0">$24.50</div>
                             <div class="small opacity-75">monthly</div>
                         </div>
                         <div class="pb-4 pt-5">
@@ -349,7 +347,7 @@
                             <p>Pro Design Panel</p>
                             <p class="text-muted"><del>15 minute support</del></p>
                             <p class="text-muted"><del>Unlimited Emails</del></p>
-                            <p class="text-muted"><del>14/7 Security</del></p>
+                            <p class="text-muted"><del>24/7 Security</del></p>
                         </div>
                         <div class="mt-auto pt-2 pb-3">
                             <button style="background-color: #8162EE;"
@@ -395,7 +393,7 @@
                             <p>Pro Design Panel</p>
                             <p>15 minute support</p>
                             <p>Unlimited Emails</p>
-                            <p>14/7 Security</p>
+                            <p>24/7 Security</p>
                         </div>
                         <div class="mt-auto pt-2 pb-3">
                             <button style="background-color: #8162EE;"
@@ -414,24 +412,19 @@
     <script src="js/fancybox.umd.js"></script>
     <script src="js/splide.min.js"></script>
     <script>
-        AOS.init({
-            once: true,
-        });
-    </script>
-    <script>
         Fancybox.bind("[data-fancybox]", {
             'animated': true,
         });
-    </script>
-    <script>
-
+        AOS.init({
+            once: true,
+        });
         document.addEventListener('DOMContentLoaded', function () {
             var splide = new Splide('.splide', {
                 type: 'loop',
-                autoplay: true, 
-                interval: 2000, 
-                perPage: 6,     
-                perMove: 1,     
+                autoplay: true,
+                interval: 2000,
+                perPage: 6,
+                perMove: 1,
                 gap: '1.5rem',
                 pagination: false,
                 pauseOnHover: false,

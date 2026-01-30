@@ -43,6 +43,25 @@ a.hover-1 {
     color: white !important;
 }
 
+.nav-link-pink {
+    color: #FE599E !important;
+}
+
+.btn-pink {
+    background-color: #FE599E;
+    transition: 0.3s;
+}
+
+.btn-pink:hover {
+    background-color: #e0488a;
+    color: white;
+}
+
+.navbar-logo {
+    max-height: 40px;
+}
+
+
 
 @font-face {
     font-family: 'Raleway';
