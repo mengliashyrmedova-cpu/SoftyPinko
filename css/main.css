@@ -43,6 +43,11 @@ a.hover-1 {
     color: white !important;
 }
 
+.hover-purple:hover {
+  color: #FE599E !important;
+  cursor: pointer;
+}
+
 .nav-link-pink {
     color: #FE599E !important;
 }
@@ -60,6 +65,32 @@ a.hover-1 {
 .navbar-logo {
     max-height: 40px;
 }
+
+.card-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.card-main {
+    position: relative;
+    top: -10px;
+    left: -10px;
+    z-index: 1;
+}
+
+@media (max-width: 576px) {
+    .card-wrapper {
+        display: flex;
+        padding: 8px;
+    }
+
+    .card-main {
+        top: 0 !important;
+        left: 0 !important; 
+        margin: 0 !important;
+        width: 100%;
+        padding: 1.5rem !important; 
+}}
 
 
 
